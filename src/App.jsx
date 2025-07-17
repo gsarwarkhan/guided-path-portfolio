@@ -1,20 +1,10 @@
+// src/App.jsx
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <Header />
-      <main className="p-4">
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 to-indigo-600 text-white text-2xl font-bold">
+      Welcome to Guided Path Portfolio 🌟
     </div>
   );
 }
